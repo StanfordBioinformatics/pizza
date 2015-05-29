@@ -16,8 +16,7 @@ class Chef(Employee):
     def __init__(self, name):
         Employee.__init__(self, name, 50000)
     def work(self):
-        print(self.name, "makes some food")
-
+        print(self.name, "makes lots of food")
 class Server(Employee):
     def __init__(self, name):
         Employee.__init__(self, name, 40000)
