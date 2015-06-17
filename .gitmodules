@@ -1,0 +1,3 @@
+[submodule "JsonWf"]
+	path = JsonWf
+	url = git@github.com:StanfordBioinformatics/JsonWf.git
