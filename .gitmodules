@@ -1,3 +1,6 @@
 [submodule "JsonWf"]
 	path = JsonWf
 	url = git@github.com:StanfordBioinformatics/JsonWf.git
+[submodule "playground"]
+	path = playground
+	url = git@github.com:StanfordBioinformatics/playground.git
