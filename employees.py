@@ -8,7 +8,7 @@ class Employee:
     def giveRaise(self, percent):
         self.salary = self.salary + (self.salary * percent)
     def work(self,time):
-        print(self.name, "does stuff at time {time}".format(time=time))
+        print(self.name, "does stuff at time {time}, then then goes home.".format(time=time))
     def __repr__(self):
         return "<Employee: name=%s, salary=%s>" % (self.name, self.salary)
 
