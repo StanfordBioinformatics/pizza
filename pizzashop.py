@@ -5,6 +5,7 @@ from employees import PizzaRobot, Server
 class Customer:
     def __init__(self, name):
         self.name = name
+				self.type = "fluffy"
     def order(self, server):
         print(self.name, "orders from", server)
     def pay(self, server):
