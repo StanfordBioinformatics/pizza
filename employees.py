@@ -39,3 +39,6 @@ if __name__ == "__main__":
     for klass in Employee, Chef, Server, PizzaRobot:
         obj = klass(klass.__name__)
         obj.work()
+
+def howdy():
+	print("howdy!")
